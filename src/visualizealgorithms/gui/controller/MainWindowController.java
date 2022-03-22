@@ -161,6 +161,7 @@ public class MainWindowController implements Initializable {
                             data = ng.generateRandomIntegers(numberOfInputs, 10);
                             break;
                         case SEARCHING:
+                            data = ng.generateRandomIntegers(numberOfInputs*1_000_000, 10);
                             break;
                         case MISC:
                             //data = new Integer[]{inputRanges.get(i)};
